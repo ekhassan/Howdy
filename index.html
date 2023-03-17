@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Howdy</title>
+
+    <style>
+        html {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: row;
+            background-image: url("download.png");
+        }
+
+        h1 {
+            font-size: 49px;
+            margin-left: 2%;
+        }
+
+        img {
+            width: 20%;
+        }
+
+        .main {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .details,
+        .place-order {
+            width: 50%;
+
+            padding: 8%;
+        }
+
+        .list,
+        .orders {
+            background: #FDD940;
+            padding: 2%;
+            border-radius: 5px;
+        }
+
+        .list {
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .orders {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+        }
+
+        table {
+            text-align: center;
+        }
+        .footer
+        {
+            background-image: url("download.png");
+        }
+
+        .container
+        {
+            display: flex;
+            width: 80%;
+            
+            margin-left: 10%;
+        }
+        .con,.map
+        {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="Howdy_Logo.png" alt="">
+        <h1>Howdy</h1>
+    </div>
+    <div class="main">
+        <div class="details">
+            <div class="list">
+                <ul>
+                    <h3>Details</h3>
+                    <li>Pizza</li>
+                    <li>Burger</li>
+                    <li>Shawarma</li>
+                    <li>Fries</li>
+                </ul>
+            </div>
+        </div>
+        <div class="place-order">
+            <div class="orders">
+                <h3>Place Order</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Items</th>
+                            <th>Qty</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Pizza</td>
+                            <td>1</td>
+                            <td>1568</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Burger</td>
+                            <td>2</td>
+                            <td>1200</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Pizza</td>
+                            <td>1</td>
+                            <td>1568</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="con">
+              <h1>  Contact : 0311234567</h1>
+            </div>
+            <div class="map">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=pakistan&t=&z=10&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://2yu.co">2yu</a><br>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        </style><a href="https://embedgooglemap.2yu.co/">html embed google map</a>
+                        <style>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
